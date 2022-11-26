@@ -1,0 +1,1 @@
+Exercises i do from time to time in order to keep my programming shape.
