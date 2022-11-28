@@ -5,5 +5,10 @@ function getAll(){
         console.log(iterator);
     }
 }
-getAll()
 
+
+function removeFirst(){
+    people.shift();
+    console.log(people);
+}
+removeFirst();
