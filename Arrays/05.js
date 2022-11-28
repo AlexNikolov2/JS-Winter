@@ -11,4 +11,9 @@ function removeFirst(){
     people.shift();
     console.log(people);
 }
-removeFirst();
+
+function removeLast(){
+    people.pop();
+    console.log(people);
+}
+removeLast();
