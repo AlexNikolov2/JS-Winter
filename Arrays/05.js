@@ -40,4 +40,8 @@ function exitMary() {
 function indexOfMary() {
   console.log(people.indexOf("Mary"));
 }
-indexOfMary();
+
+function indexOfFoo() {
+  console.log(people.indexOf("Foo"));
+}
+indexOfFoo();
