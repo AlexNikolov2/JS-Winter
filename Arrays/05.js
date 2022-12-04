@@ -49,4 +49,9 @@ function addPeople() {
   people.splice(2, 1, "Elizabeth", "Artie");
   console.log(people);
 }
-addPeople();
+
+function bob() {
+  let withBob = "Bob";
+  console.log(people.concat(withBob));
+}
+bob();
