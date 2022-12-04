@@ -21,6 +21,12 @@ function addFirst() {
   console.log(people);
 }
 
+function addMe() {
+  people.push("Me");
+  console.log(people);
+}
+addMe();
+
 function exitMary() {
   for (const iterator of people) {
     console.log(iterator);
@@ -29,4 +35,5 @@ function exitMary() {
     }
   }
 }
-exitMary();
+
+// 07 I have no idea
