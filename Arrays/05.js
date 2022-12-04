@@ -20,4 +20,13 @@ function addFirst() {
   people.unshift("Matt");
   console.log(people);
 }
-addFirst();
+
+function exitMary() {
+  for (const iterator of people) {
+    console.log(iterator);
+    if (iterator == "Mary") {
+      break;
+    }
+  }
+}
+exitMary();
