@@ -25,7 +25,6 @@ function addMe() {
   people.push("Me");
   console.log(people);
 }
-addMe();
 
 function exitMary() {
   for (const iterator of people) {
@@ -37,3 +36,8 @@ function exitMary() {
 }
 
 // 07 I have no idea
+
+function indexOfMary() {
+  console.log(people.indexOf("Mary"));
+}
+indexOfMary();
