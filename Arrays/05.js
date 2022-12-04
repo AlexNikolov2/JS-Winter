@@ -44,4 +44,9 @@ function indexOfMary() {
 function indexOfFoo() {
   console.log(people.indexOf("Foo"));
 }
-indexOfFoo();
+
+function addPeople() {
+  people.splice(2, 1, "Elizabeth", "Artie");
+  console.log(people);
+}
+addPeople();
