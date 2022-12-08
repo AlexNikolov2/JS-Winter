@@ -3,8 +3,12 @@ class Cylinder {
     this.radius = radius;
     this.height = height;
 
+    console.log(this.getVolume());
+  }
+
+  getVolume() {
     let volume = Math.PI * (this.radius * this.radius) * this.height;
-    console.log(volume.toFixed(7));
+    return volume.toFixed(7);
   }
 }
 
