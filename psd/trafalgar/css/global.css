@@ -2,4 +2,12 @@
 
 * {
   font-family: "Mulish", sans-serif;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  padding: 40px 100px;
 }

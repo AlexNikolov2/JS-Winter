@@ -1,6 +1,5 @@
 header {
   display: flex;
-  padding: 20px 60px;
   justify-content: space-between;
   align-items: center;
 }
@@ -14,6 +13,15 @@ header .leftside {
 header .special-t {
   background-color: #458ff6;
   border-radius: 100%;
-  padding: 10px;
+  padding: 3px 6px;
   color: #fff;
+}
+header ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  list-style-type: none;
+}
+header a:hover {
+  font-weight: bold;
 }
