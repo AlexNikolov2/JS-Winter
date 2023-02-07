@@ -2,7 +2,18 @@ header {
   display: flex;
   padding: 20px 60px;
   justify-content: space-between;
+  align-items: center;
 }
 header .leftside {
   display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 22px;
+  gap: 5px;
+}
+header .special-t {
+  background-color: #458ff6;
+  border-radius: 100%;
+  padding: 10px;
+  color: #fff;
 }
