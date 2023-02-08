@@ -25,3 +25,31 @@ header ul {
 header a:hover {
   font-weight: bold;
 }
+
+/* --head */
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.head .left {
+  max-width: 465px;
+}
+.head h2 {
+  font-size: 48px;
+  padding-block: 21px;
+}
+.head p {
+  font-size: 21px;
+  padding-block: 21px;
+}
+.head button {
+  border: none;
+  background-color: #458ff6;
+  color: white;
+  border-radius: 55px;
+  padding: 13px 19px;
+  margin-top: 21px;
+}
