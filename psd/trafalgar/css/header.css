@@ -33,6 +33,7 @@ header a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 30px 0px;
+  margin-bottom: 30px;
 }
 .head .left {
   max-width: 465px;
@@ -52,4 +53,10 @@ header a:hover {
   border-radius: 55px;
   padding: 13px 19px;
   margin-top: 21px;
+}
+
+.header-dots {
+  position: absolute;
+  left: -0px;
+  top: 130px;
 }
