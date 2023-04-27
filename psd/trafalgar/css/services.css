@@ -14,7 +14,7 @@
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: 20px;
 }
 .service p {
   color: #7d7987;
@@ -30,4 +30,9 @@
   margin: 30px 0px;
 }
 .services-dots {
+  position: absolute;
+  left: 79.88%;
+  right: 11.9%;
+  top: 115.74%;
+  z-index: -1;
 }
