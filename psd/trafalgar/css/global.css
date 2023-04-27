@@ -16,16 +16,26 @@ body {
   width: 1118.54px;
   height: 967.94px;
   left: -266px;
-  top: -65px;
+  top: 965px;
+  z-index: -1;
 }
-.bubble img {
+.bubble-spec {
   position: absolute;
   width: 937.96px;
   height: 671.38px;
-  left: -20.42px;
-  top: 965px;
+  left: 250.42px;
+  top: -205px;
 
   opacity: 0.6;
+  transform: rotate(1.46deg);
+}
+.bubble-vector {
+  position: absolute;
+  left: 26.18%;
+  right: -26.18%;
+  top: 0%;
+  bottom: 0%;
+
+  background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
   transform: rotate(21.46deg);
-  z-index: -1;
 }
