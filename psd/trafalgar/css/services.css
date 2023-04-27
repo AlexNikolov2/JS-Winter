@@ -1,7 +1,7 @@
 .services {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
@@ -58,4 +58,13 @@
 
   background: #000000;
   border-radius: 5px;
+}
+.services button {
+  border: 2px solid #458ff6;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #458ff6;
+  background-color: white;
+  border-radius: 26px;
+  margin-top: 70px;
 }
