@@ -11,3 +11,21 @@ a {
 body {
   padding: 40px 200px;
 }
+.bubble {
+  position: absolute;
+  width: 1118.54px;
+  height: 967.94px;
+  left: -266px;
+  top: -65px;
+}
+.bubble img {
+  position: absolute;
+  width: 937.96px;
+  height: 671.38px;
+  left: -20.42px;
+  top: 965px;
+
+  opacity: 0.6;
+  transform: rotate(21.46deg);
+  z-index: -1;
+}
