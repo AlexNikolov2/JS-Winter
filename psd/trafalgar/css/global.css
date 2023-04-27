@@ -23,11 +23,10 @@ body {
   position: absolute;
   width: 937.96px;
   height: 671.38px;
-  left: 250.42px;
-  top: -205px;
+  left: 0.42px;
+  top: -155px;
 
   opacity: 0.6;
-  transform: rotate(1.46deg);
 }
 .bubble-vector {
   position: absolute;
@@ -35,7 +34,4 @@ body {
   right: -26.18%;
   top: 0%;
   bottom: 0%;
-
-  background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
-  transform: rotate(21.46deg);
 }
