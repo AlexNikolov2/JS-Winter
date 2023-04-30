@@ -1,0 +1,28 @@
+.information-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+#reverse {
+  flex-direction: row-reverse;
+}
+.right {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.right h2 {
+  font-size: 35px;
+}
+.right p {
+  color: #7d7987;
+  margin: 20px 0px;
+}
