@@ -35,3 +35,6 @@ body {
   top: 0%;
   bottom: 0%;
 }
+.reverse {
+  flex-direction: row-reverse;
+}
