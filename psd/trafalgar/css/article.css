@@ -1,0 +1,11 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.articles .title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
