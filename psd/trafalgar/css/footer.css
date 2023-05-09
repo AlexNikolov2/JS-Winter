@@ -1,0 +1,45 @@
+footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  color: white;
+  margin: -40px -200px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+  font-weight: 100;
+}
+footer .logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+.logo .special-t {
+  background-color: white;
+  color: #5a98f2;
+  font-size: 26px;
+  padding: 5px 13px;
+  border-radius: 100%;
+}
+.trafalgar {
+  max-width: 400px;
+}
+.text,
+.copyright {
+  line-height: 1.6;
+  font-size: 18px;
+}
+.text {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.companies {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
