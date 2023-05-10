@@ -38,6 +38,7 @@
   padding: 0px 35px 45px 35px;
   margin-top: -10px;
   font-weight: bold;
+  transition: font-size 1s;
 }
 .article p {
   color: #7d7987;
@@ -49,4 +50,7 @@
 }
 .articles button {
   padding: 10px 60px;
+}
+.article a:hover {
+  font-size: 20px;
 }
