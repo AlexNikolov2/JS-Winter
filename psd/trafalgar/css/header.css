@@ -22,8 +22,12 @@ header ul {
   list-style: none;
   list-style-type: none;
 }
+header a {
+  transition: font-weight 0.5s, font-size 0.5s;
+}
 header a:hover {
   font-weight: bold;
+  font-size: 17px;
 }
 
 /* --head */
