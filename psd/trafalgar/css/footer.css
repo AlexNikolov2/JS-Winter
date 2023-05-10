@@ -43,3 +43,11 @@ footer .logo {
   flex-direction: column;
   gap: 25px;
 }
+.companies a {
+  color: white;
+  transition: font-weight 1s, font-size 1s;
+}
+.companies a:hover {
+  font-weight: 500;
+  font-size: 18px;
+}
