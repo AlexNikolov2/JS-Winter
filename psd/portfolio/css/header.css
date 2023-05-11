@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 110px;
+}
+h1 {
+  font-size: 55px;
+  max-width: 550px;
+  color: #21243d;
+}
+p {
+  font-size: 20px;
+  max-width: 625px;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  min-width: 300px;
+}
+button {
+  background-color: #ff6464;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  font-weight: 500;
+  transition: font-size 0.5s;
+}
+button:hover {
+  cursor: pointer;
+  font-size: 25px;
+}
