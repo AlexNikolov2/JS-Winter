@@ -17,3 +17,18 @@ li {
   font-weight: 500;
   font-size: 20px;
 }
+#burger {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #burger {
+    font-size: 45px;
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+  nav {
+    padding: 10px;
+  }
+}
