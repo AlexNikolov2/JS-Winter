@@ -31,4 +31,17 @@ li {
   nav {
     padding: 10px;
   }
+  li {
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.534);
+  }
+  .toggled {
+    transform: rotate(90deg);
+    transition: 0.3s;
+  }
+  .untoggled {
+    transition: 0.3s;
+  }
 }

@@ -7,10 +7,17 @@ function toggleHamburger() {
     if (navbarLinks.style.display === "flex") {
       navbarLinks.style.display = "none";
       navbarLinks.style.flexDirection = "row";
+      burger.classList.remove("toggled");
+      burger.classList.add("untoggled");
     } else {
       navbarLinks.style.display = "flex";
       navbar.style.flexDirection = "column-reverse";
       navbarLinks.style.flexDirection = "column";
+      navbarLinks.style.width = "100%";
+      navbarLinks.style.alignItems = "center";
+      navbarLinks.style.justifyContent = "center";
+      burger.classList.add("toggled");
+      burger.classList.remove("untoggled");
     }
   });
 }
