@@ -11,11 +11,11 @@ function toggleHamburger() {
       burger.classList.add("untoggled");
     } else {
       navbarLinks.style.display = "flex";
-      navbar.style.flexDirection = "column-reverse";
       navbarLinks.style.flexDirection = "column";
       navbarLinks.style.width = "100%";
       navbarLinks.style.alignItems = "center";
       navbarLinks.style.justifyContent = "center";
+      navbar.style.flexDirection = "column-reverse";
       burger.classList.add("toggled");
       burger.classList.remove("untoggled");
     }
