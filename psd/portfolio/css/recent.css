@@ -9,6 +9,7 @@
 }
 .recent-top a {
   color: #00a8cc;
+  transition: font-weight 0.3s;
 }
 .recent-top h2 {
   font-weight: 400;
@@ -29,4 +30,7 @@
 .recent-item p {
   font-size: 16px;
   max-width: 350px;
+}
+.recent-top a:hover {
+  font-weight: bold;
 }
