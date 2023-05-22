@@ -13,3 +13,20 @@
 .recent-top h2 {
   font-weight: 400;
 }
+.recent-items {
+  display: flex;
+  gap: 25px;
+}
+.recent-item {
+  background-color: white;
+  margin-bottom: 30px;
+  max-width: 400px;
+  padding: 20px;
+}
+.recent-item h2 {
+  margin: 5px 0px;
+}
+.recent-item p {
+  font-size: 16px;
+  max-width: 350px;
+}
