@@ -1,0 +1,15 @@
+.recent {
+  background-color: #edf7fa;
+  padding: 0px 400px;
+}
+.recent-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recent-top a {
+  color: #00a8cc;
+}
+.recent-top h2 {
+  font-weight: 400;
+}
