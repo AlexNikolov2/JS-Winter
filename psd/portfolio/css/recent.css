@@ -34,3 +34,19 @@
 .recent-top a:hover {
   font-weight: bold;
 }
+@media screen and (max-width: 1000px) {
+  .recent-top a {
+    display: none;
+  }
+  .recent-top h2 {
+    text-align: center;
+  }
+  .recent-items {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .recent {
+    padding: 10px 12px;
+  }
+}
