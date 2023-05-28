@@ -1,0 +1,12 @@
+.works {
+  padding: 0px 375px;
+}
+.works-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.works h3 {
+  font-weight: 400;
+}
