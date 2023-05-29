@@ -23,3 +23,18 @@
 .works-item p {
   font-size: 17px;
 }
+@media all and (max-width: 768px) {
+  .works {
+    padding: 0px 5px;
+  }
+  .works-item {
+    flex-direction: column;
+  }
+  .works-item h2 {
+    font-size: 26px;
+    margin: 5px 0px;
+  }
+  .works-item p {
+    font-size: 14px;
+  }
+}
