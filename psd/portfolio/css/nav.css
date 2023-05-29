@@ -20,6 +20,14 @@ li {
 #burger {
   display: none;
 }
+nav a {
+  transition: font-size 0.3s, font-weight 0.3s;
+}
+nav a:hover {
+  color: #ff6464;
+  font-size: 20px;
+  font-weight: 600;
+}
 @media screen and (max-width: 768px) {
   #burger {
     font-size: 45px;
