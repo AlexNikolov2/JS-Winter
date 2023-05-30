@@ -49,4 +49,15 @@
   .recent {
     padding: 10px 12px;
   }
+  .recent-item h2 {
+    font-size: 18px;
+  }
+  .recent-item #info p {
+    gap: 10px;
+    margin: 5px 0px;
+    font-size: 16px;
+  }
+  .recent-item {
+    padding: 10px;
+  }
 }
