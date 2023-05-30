@@ -23,6 +23,17 @@
 .works-item p {
   font-size: 17px;
 }
+.works-item #info p:first-child {
+  background-color: #142850;
+  color: white;
+  font-weight: bolder;
+  padding: 4px 9px;
+  border-radius: 20px;
+}
+.works-item #info p:last-child {
+  color: #8695a4;
+  font-size: 20px;
+}
 @media all and (max-width: 768px) {
   .works {
     padding: 0px 5px;
