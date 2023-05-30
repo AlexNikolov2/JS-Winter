@@ -16,6 +16,13 @@ footer i {
 footer p {
   font-size: 12px;
 }
+footer a i {
+  transition: font-size 0.4s;
+}
+footer a i:hover {
+  font-size: 42px;
+  color: #ff6464;
+}
 @media screen and (max-width: 768px) {
   footer {
     padding: 0 5px;
