@@ -23,11 +23,12 @@
 .works-item p {
   font-size: 17px;
 }
+
 .works-item #info p:first-child {
   background-color: #142850;
   color: white;
   font-weight: bolder;
-  padding: 4px 9px;
+  padding: 2px 15px;
   border-radius: 20px;
 }
 .works-item #info p:last-child {
