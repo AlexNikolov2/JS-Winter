@@ -19,11 +19,12 @@
 }
 .works-item h2 {
   font-size: 30px;
+  margin-top: 0px;
 }
 .works-item p {
   font-size: 17px;
+  margin-top: 10px;
 }
-
 .works-item #info p:first-child {
   background-color: #142850;
   color: white;
