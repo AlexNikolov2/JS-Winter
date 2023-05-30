@@ -11,3 +11,10 @@ a {
 * {
   font-family: "Heebo", sans-serif;
 }
+#info {
+  display: flex;
+  gap: 30px;
+}
+#info p {
+  font-size: 18px;
+}
