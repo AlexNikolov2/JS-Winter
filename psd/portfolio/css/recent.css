@@ -23,6 +23,7 @@
   margin-bottom: 30px;
   max-width: 400px;
   padding: 20px;
+  transition: width 0.5s, padding 0.5s;
 }
 .recent-item h2 {
   margin: 5px 0px;
@@ -33,6 +34,10 @@
 }
 .recent-top a:hover {
   font-weight: bold;
+}
+.recent-item:hover {
+  max-width: 700px;
+  padding: 25px;
 }
 @media screen and (max-width: 1000px) {
   .recent-top a {
