@@ -1,49 +1,70 @@
 @use "variables";
 
-nav {
+.nav-wrap {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  ul {
-    list-style: none;
+
+  nav {
     display: flex;
-    gap: 40px;
-  }
-  a {
-    color: variables.$black;
-    font-weight: 600;
-    font-size: 16;
-  }
-  #burger {
-    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 40px;
+    }
+    a {
+      color: variables.$black;
+      font-weight: 600;
+      font-size: 16px;
+      transition: color 0.4s, font-weight 0.4s, font-size 0.4s;
+    }
+    #burger {
+      display: none;
+    }
+    a:hover {
+      color: variables.$orange;
+      font-weight: 700;
+      font-size: 20px;
+    }
   }
 }
 
 @media screen and (max-width: variables.$tablet) {
-  nav {
-    padding: 10px;
+  .nav-wrap {
+    gap: 30px;
+    .logo {
+      img {
+        width: 110px;
+      }
+    }
+    nav {
+      padding: 20px 5px;
+      gap: 30px;
 
-    #burger {
-      font-size: 45px;
-      display: block;
-    }
-    ul {
-      display: none;
-    }
+      #burger {
+        font-size: 45px;
+        display: block;
+      }
+      ul {
+        display: none;
+      }
 
-    li {
-      text-align: center;
-      padding-bottom: 10px;
-      width: 100%;
-      border-bottom: 2px solid rgba(0, 0, 0, 0.534);
-    }
-    .toggled {
-      transform: rotate(90deg);
-      transition: 0.3s;
-    }
-    .untoggled {
-      transition: 0.3s;
+      li {
+        text-align: center;
+        padding-bottom: 10px;
+        width: 100%;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.534);
+      }
+      .toggled {
+        transform: rotate(90deg);
+        transition: 0.3s;
+      }
+      .untoggled {
+        transition: 0.3s;
+      }
     }
   }
 }

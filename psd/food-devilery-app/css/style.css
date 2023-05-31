@@ -17,48 +17,66 @@ a {
   color: #252b42;
 }
 
-nav {
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-wrap nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-nav ul {
+.nav-wrap nav ul {
   list-style: none;
   display: flex;
   gap: 40px;
 }
-nav a {
+.nav-wrap nav a {
   color: #252b42;
   font-weight: 600;
-  font-size: 16;
+  font-size: 16px;
+  transition: color 0.4s, font-weight 0.4s, font-size 0.4s;
 }
-nav #burger {
+.nav-wrap nav #burger {
   display: none;
+}
+.nav-wrap nav a:hover {
+  color: #fa4a0c;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    padding: 10px;
+  .nav-wrap {
+    gap: 30px;
   }
-  nav #burger {
+  .nav-wrap .logo img {
+    width: 110px;
+  }
+  .nav-wrap nav {
+    padding: 20px 5px;
+    gap: 30px;
+  }
+  .nav-wrap nav #burger {
     font-size: 45px;
     display: block;
   }
-  nav ul {
+  .nav-wrap nav ul {
     display: none;
   }
-  nav li {
+  .nav-wrap nav li {
     text-align: center;
     padding-bottom: 10px;
     width: 100%;
     border-bottom: 2px solid rgba(0, 0, 0, 0.534);
   }
-  nav .toggled {
+  .nav-wrap nav .toggled {
     transform: rotate(90deg);
     transition: 0.3s;
   }
-  nav .untoggled {
+  .nav-wrap nav .untoggled {
     transition: 0.3s;
   }
 }
