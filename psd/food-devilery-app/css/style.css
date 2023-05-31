@@ -11,11 +11,20 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

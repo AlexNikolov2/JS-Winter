@@ -3,4 +3,9 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
 }
