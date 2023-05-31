@@ -32,5 +32,34 @@ nav a {
   font-weight: 600;
   font-size: 16;
 }
+nav #burger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+  nav #burger {
+    font-size: 45px;
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  nav li {
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.534);
+  }
+  nav .toggled {
+    transform: rotate(90deg);
+    transition: 0.3s;
+  }
+  nav .untoggled {
+    transition: 0.3s;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

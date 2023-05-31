@@ -15,4 +15,35 @@ nav {
     font-weight: 600;
     font-size: 16;
   }
+  #burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: variables.$tablet) {
+  nav {
+    padding: 10px;
+
+    #burger {
+      font-size: 45px;
+      display: block;
+    }
+    ul {
+      display: none;
+    }
+
+    li {
+      text-align: center;
+      padding-bottom: 10px;
+      width: 100%;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.534);
+    }
+    .toggled {
+      transform: rotate(90deg);
+      transition: 0.3s;
+    }
+    .untoggled {
+      transition: 0.3s;
+    }
+  }
 }
