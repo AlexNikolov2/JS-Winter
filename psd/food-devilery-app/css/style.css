@@ -13,6 +13,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #252b42;
 }
 
 nav {
@@ -25,6 +26,10 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 40px;
+}
+nav a {
+  font-weight: 600;
+  font-size: 16;
 }
 
 /*# sourceMappingURL=style.css.map */
