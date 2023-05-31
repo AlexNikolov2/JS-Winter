@@ -28,6 +28,7 @@ nav ul {
   gap: 40px;
 }
 nav a {
+  color: #252b42;
   font-weight: 600;
   font-size: 16;
 }
