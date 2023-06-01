@@ -121,8 +121,7 @@ body {
   background-color: transparent;
   color: white;
   border: 2px solid white;
-  transition: background-color 0.5s, font-size 0.5s, font-weight 0.5s,
-    border 0.5s;
+  transition: background-color 0.5s, font-size 0.5s, font-weight 0.5s, border 0.5s;
 }
 .header .buttons button:hover {
   background-color: #fa4a0c;
@@ -131,6 +130,7 @@ body {
   border: none;
   cursor: pointer;
 }
+
 #telefoni {
   background-color: black;
   display: flex;
@@ -143,4 +143,5 @@ body {
 #telefoni p {
   font-size: 30px;
 }
+
 /*# sourceMappingURL=style.css.map */
