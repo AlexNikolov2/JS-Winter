@@ -131,4 +131,17 @@ body {
   cursor: pointer;
 }
 
+#telefoni {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#telefoni img {
+  border: 20px solid white;
+}
+#telefoni p {
+  font-size: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
