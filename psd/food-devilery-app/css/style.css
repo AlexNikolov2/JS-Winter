@@ -113,6 +113,7 @@ body {
   padding-top: 25px;
   display: flex;
   gap: 50px;
+  padding-bottom: 90px;
 }
 .header .buttons button {
   padding: 12px 40px;
@@ -132,16 +133,22 @@ body {
 }
 
 #telefoni {
-  background-color: black;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  bottom: 300px;
 }
-#telefoni img {
-  border: 20px solid white;
+#telefoni hr {
+  width: 700px;
+  height: 3px;
+  background-color: #e4e4e4;
 }
 #telefoni p {
-  font-size: 30px;
+  font-size: 44px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
