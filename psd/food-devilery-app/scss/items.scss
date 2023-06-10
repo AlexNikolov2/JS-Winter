@@ -1,0 +1,20 @@
+@use "variables";
+
+.items {
+  padding: 0px 150px;
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    color: variables.$orange;
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+}
+.reverse {
+  flex-direction: row-reverse;
+  position: relative;
+}

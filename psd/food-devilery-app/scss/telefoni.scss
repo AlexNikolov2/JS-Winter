@@ -1,4 +1,20 @@
-.telefoni {
+@use "variables";
+
+#telefoni {
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  bottom: 300px;
+  hr {
+    width: 700px;
+    height: 3px;
+    background-color: #e4e4e4;
+  }
+  p {
+    font-size: 44px;
+    font-weight: 600;
+    font-family: variables.$poppins;
+  }
 }
