@@ -1,0 +1,12 @@
+@use "variables";
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px 0px;
+  .icons {
+    display: flex;
+    gap: 20px;
+  }
+}

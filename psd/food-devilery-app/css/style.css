@@ -219,4 +219,15 @@ body {
   cursor: pointer;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px 0px;
+}
+footer .icons {
+  display: flex;
+  gap: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
