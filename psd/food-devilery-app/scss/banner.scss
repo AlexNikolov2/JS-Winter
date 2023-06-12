@@ -1,0 +1,52 @@
+@use "variables";
+
+.banner {
+  background: url("../img/footer-background.png");
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 15%;
+  object-fit: cover;
+  h1 {
+    font-size: 58px;
+    font-family: variables.$poppins;
+    text-align: center;
+  }
+
+  p {
+    font-size: 24px;
+  }
+  .top {
+    font-weight: 800;
+  }
+  h1,
+  p {
+    margin: 20px 0px;
+  }
+  .buttons {
+    padding-top: 25px;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 90px;
+    button {
+      padding: 12px 40px;
+      border-radius: 35px;
+      font-size: 24px;
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+
+      transition: background-color 0.5s, font-size 0.5s, font-weight 0.5s,
+        border 0.5s;
+    }
+    button:hover {
+      background-color: variables.$orange;
+      font-size: 28px;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
